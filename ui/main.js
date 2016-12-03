@@ -3,10 +3,10 @@ var element = document.getElementById('imad');
 var marginLeft = 0;
 
 function moveRight(){
-    marginLeft = marginLeft + 10;
+    marginLeft = marginLeft + 1;
     element.style.marginLeft = marginLeft + 'px';
 }
 
 element.onclick =function(){
-    var interval = setInterval(moveRight ,100);
+    var interval = setInterval(moveRight ,50);
 }
