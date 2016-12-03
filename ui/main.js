@@ -52,6 +52,5 @@ submit.onclick = function(){
     var name = nameInput.value;
     request.open('GET', 'http://ajayk7.imad.hasura-app.io/submit-name?name' + name, true );
     request.send(null);
-    //should make a request to the server and send the name 
     
 }
