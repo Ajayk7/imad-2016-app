@@ -93,7 +93,18 @@ app.get('/counter', function( req ,res ) {
    counter = counter + 1;
    res.send(counter.toString());
 });
-
+var names = [];
+app.get('/submit-name/:name', function(req,res) {
+   //Get the name from request object 
+   var name=req.param.name;
+   
+   names.push(name);
+   
+   //JSON : javascript object notation
+   
+   res.send(JSON.stringifynames);
+   
+});
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
