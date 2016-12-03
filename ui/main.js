@@ -8,7 +8,7 @@ function moveRight(){
 
 element.onclick =function(){
     var interval = setInterval(moveRight ,50);
-}
+};
 
 //counter
 var counter =0;
