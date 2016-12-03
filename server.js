@@ -29,7 +29,7 @@ var articleONe = {
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
                     
-                </p>`
+                </p>`;
 };
 
 
