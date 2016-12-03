@@ -9,7 +9,7 @@ app.use(morgan('combined'));
 var articleONe = {
     title : ' Article one | Ajay',
     heading : 'Article one',
-    date : 'Dec 3'
+    date : 'Dec 3',
     content : `<p>
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
@@ -29,7 +29,7 @@ var articleONe = {
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
                     This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.This the first article I'm writing.
                     
-                </p>`;
+                </p>`
 };
 
 
