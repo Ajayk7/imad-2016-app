@@ -34,7 +34,7 @@ var articleOne = {
 
 
 function createTemplate(data) {
-    var tilte = data.title;
+    var title = data.title;
     var heading = data.heading;
     var date = data.date;
     var content =data.content;
